@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(28, 130, 28);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service {
+    padding: 50px 0;
+}
+
+.content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.content p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+.form-section {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.form-container {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.form-container h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+.image-with-border {
+    border: 5px solid #000; 
+    border-style: double;/* Change the color and thickness as needed */
+}
+
+
+/* Filter effect */
+.container .image {
+    filter: grayscale(50%);
+}
+.image,
+.content {
+    display: inline-block; /* Make sections align horizontally */
+    margin-right: 20px; /* Adjust the space between sections as needed */
+}
+/* Box shadow effect */
+.image .image {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Transition effect */
+.container .image {
+    transition: filter 0.5s ease;
+}
+
+.container-footer {
+    width: 99%;
+    margin:0px;
+    padding: 0 ;
+}
+footer {
+    height: 80px;
+    background: #333;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}

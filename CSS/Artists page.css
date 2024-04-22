@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(34, 95, 34); /* Background color of the header */
+    text-align: center; /* Center-align the text */
+    padding: 20px 0; /* Add padding to the top and bottom of the header */
+    color: white; /* Text color */
+}
+
+.header h1 {
+    margin: 0; /* Remove default margin of the h1 element */
+}
+
+.profile-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.previous-work {
+    flex: 1;
+    text-align: center;
+}
+
+.previous-work img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    position: relative; /* Make the header a positioning context */
+    height: 150px; 
+    background-color: green;
+    color: #fff;/* Set the height of the header */
+}
+
+img {
+    width: 100%; /* Ensure the image fills the header */
+    height: 90%; /* Maintain aspect ratio */
+}
+
+.header-content {
+    position: absolute; /* Position the content relative to the header */
+    top: 50%; /* Place the content 50% from the top */
+    left: 50%; /* Place the content 50% from the left */
+    transform: translate(-50%, -50%); /* Center the content horizontally and vertically */
+    text-align: center; /* Align text content to the center */
+    color: white; /* Text color */
+    z-index: 1; /* Ensure content is above the image */
+}
+
+.header-content h1 {
+    margin-bottom: 10px; /* Adjust spacing between heading and paragraph */
+}
+
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .artist {
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .artist img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .artist-info {
+    padding: 15px;
+  }
+  
+  .artist-info h2 {
+    margin-top: 0;
+  }
+  
+  .artist-info p {
+    margin-bottom: 10px;
+  }
+  
+  .artist-info a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+  }
+  
+  .artist-info a:hover {
+    background-color: #555;
+  }
+  .container {
+    width: 90%;
+    margin: 20px;
+    padding: 0 ;
+  }
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
