@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="Services.css">
+</head>
+<body>
+    <header>
+        <h1><i>Our Services</i></h1>
+    </header>
+
+    <section class="service">
+        <div class="container">
+            <div class="content">
+                <h2><i><u>Waste Collection</u></i></h2>
+                <p style="font-family: 'Roboto', sans-serif; font-weight: 100;font-size: 20px;"><i>If you are looking to dispose of your waste responsibly ,
+                    we’re here to help! We provide door-to-door waste pick up 
+                    services for households, communities and organisations. 
+                    The collected waste goes through a process of further 
+                    sorting and gets recycled into raw materials for artists 
+                    who transforms that waste into art by their creativity. 
+                    Know more. We also provide awareness sessions on request.
+                </i></p>
+            </div>
+            <div class="image">
+                <img src="garbage.jpg" alt="Waste Collection" class="image-with-border">
+            </div>
+        </div>
+    </section>
+    <header>
+        <h1><i>What Kind Of Waste Do We Collect?</i></h1>
+    </header><br>
+    <section class="waste-types">
+        <div class="container">
+            <div class="image">
+                <img src="paper.jpg" alt="Waste Types" class="image-with-border">
+            </div>
+            
+            <div class="content">
+                <h2><b><u>Paper Collection</u></b></h2>
+                <b>
+                <ul>
+                    <li>Newspapers</li>
+                    <li>Books</li>
+                    <li>Shredded paper</li>
+                    <li>Cardboard</li>
+                    <li>confidential documents</li>
+                    <li>torn sheets</li>
+                </ul>
+                </b>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="waste-types">
+        <div class="container">
+            <div class="content">
+                <h2><b><u>Plastic Collection</u></b></h2>
+                <b>
+                <ul>
+                    <li>Milk covers</li>
+                    <li>FMCG bottles</li>
+                    <li>Plastic toys</li>
+                    <li>Broken plastic furniture</li>
+                    <li>PET bottles</li>
+                    <li>Hard Plastics</li>
+                </ul>
+                </b>
+            </div>
+            <div class="image">
+                <img src="plastic.jpg" alt="Waste Types" class="image-with-border">
+            </div>
+        </div>
+    </section><br>
+    <section class="waste-types">
+        <div class="container">
+            <div class="image">
+                <img src="steel.jpg" alt="Waste Types" class="image-with-border">
+            </div>
+            <div class="content">
+                <h2><b><u>Steel Collection</u></b></h2>
+                <b>
+                <ul>
+                    <li>Mild steel</li>
+                    <li>Stainless steel</li>
+                    <li>Bronze</li>
+                    <li>Copper</li>
+                    <li>Aluminium</li>
+                    <li>Alcohol tins</li>
+                </ul>
+                </b>
+            </div>
+        </div>
+    </section><br>
+    <section class="waste-types">
+        <div class="container">
+            <div class="content">
+                <h2><b><u>Glass Collection</u></b></h2>
+                <b>
+                <ul>
+                    <li>Household bottles</li>
+                    <li>alcohol glass bottles</li>
+                    <li>Perfume Bottles</li>
+                    <li>Medicine Bottles</li>
+                    <li>Milk Bottles</li>
+                    <li>Oil and Vinegar Bottles</li>
+                </ul>
+                </b>
+            </div>
+            <div class="image">
+                <img src="glass.jpg" alt="Waste Types" class="image-with-border">
+            </div>
+        </div>
+    </section><br>
+    <section class="waste-types">
+        <div class="container">
+            <div class="image">
+                <img src="ewaste.jpg" alt="Waste Types" class="image-with-border">
+            </div>
+            <div class="content">
+                <h2><b><u>E-Waste</u></b></h2>
+                <b>
+                <ul>
+                    <li>All electric & electronic appliances</li>
+                    <li>Refrigerator</li>
+                    <li>Washing machine</li>
+                    <li>Computer & Laptops</li>
+                    <li>Microwave</li>
+                    <li>Wires , Many More etc...</li>
+                </ul>
+                </b>
+            </div>
+        </div>
+    </section><br>
+    <header>
+        <h1><i>Recycle With Us Today</i></h1>
+    </header>
+    <section class="form-section">
+        <div class="container">
+            <div class="form-container">
+                <h2>Waste Collection Form</h2>
+                <form id="waste-collection-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact">Contact Details:</label>
+                        <input type="text" id="contact" name="contact" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <textarea id="address" name="address" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="waste-type">Type of Waste:</label>
+                        <select id="waste-type" name="waste-type" required>
+                            <option value="">Select</option>
+                            <option value="paper">Paper</option>
+                            <option value="plastic">Plastic</option>
+                            <option value="ewaste">E-Waste</option>
+                            <option value="metal">Metal</option>
+                            <option value="appliances">Appliances</option>
+                            <option value="glass">Glass</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="weight">Weight (in kgs):</label>
+                        <input type="number" id="weight" name="weight" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="datetime">Preferred Date and Time:</label>
+                        <input type="datetime-local" id="datetime" name="datetime" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="additional-info">Additional Information:</label>
+                        <textarea id="additional-info" name="additional-info"></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="image-container">
+                <img src="form.jpg" alt="Waste Collection Image" class="image-with-border">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-footer">
+            <p>&copy; 2024 ReArtifyWaste. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    
+</body>
+</html>

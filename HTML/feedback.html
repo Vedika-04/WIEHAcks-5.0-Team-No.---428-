@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+    <style>
+      .container-c1 {
+            width: 99%;
+            margin:0px;
+            padding: 0 ;
+        }
+      footer {
+            height: 100px;
+            background: #333;
+            font-weight: bold;
+            font-size: 20px;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <header><h1><i><b>Get in touch with us</b></i></h1></header>
+    
+    <div class="feedback-container">
+        <h1> “We all need people who will give us feedback. That’s how we improve.”
+            – Bill Gates</h1>
+            <h2><i>Any remarks/questions? Just write us a message!</i></h2>
+        <header><h1>Send Your Feedback</h1></header>
+        <form id="feedback-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" required></textarea>
+
+            <label for="rate">Rate (out of 10):</label>
+            <input type="number" id="rate" name="rate" min="0" max="10" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <br>
+    
+    <div class="contact-info">
+        <div class="contact-item">
+          <img src="connect.png" alt="Phone Icon" class="icon">
+          <span>Contact: <a href="tel:123456789">123-456-789</a></span>
+        </div>
+        <div class="contact-item">
+          <img src="mail.png" alt="Email Icon" class="icon">
+          <span>Email: <a href="mailto:example@example.com">example@example.com</a></span>
+        </div>
+        <div class="contact-item">
+          <img src="location.png" alt="Location Icon" class="icon">
+          <span>Location: 123 Street, City, Country</span>
+        </div>
+      </div>
+      
+      <div class="social-icons">
+        <a href="#"><img src="insta.png" alt="Instagram Icon" class="social-icon"></a>
+        <a href="#"><img src="facebook.png" alt="Facebook Icon" class="social-icon"></a>
+        <a href="#"><img src="twitter.png" alt="Twitter Icon" class="social-icon"></a>
+        <a href="#"><img src="linkedin.png" alt="LinkedIn Icon" class="social-icon"></a>
+      </div>
+      <br>
+    <script src="feedback.js"></script>
+    <footer>
+      <div class="container-footer">
+          <p>&copy; 2024 ReArtifyWaste. All rights reserved.</p>
+      </div>
+  </footer>
+</body>
+</html>
